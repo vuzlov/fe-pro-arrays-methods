@@ -25,9 +25,9 @@
             box-sizing: border-box;
         }
 
-        body {
+        /* body {
 
-        }
+        } */
 
         .wrapper {
             display: grid;
@@ -118,43 +118,43 @@
 </head>
 <body>
 
-<main class="wrapper">
-    <aside class="sidebar">
-        <section>
-            <h2 class="section__title">
-                Prices options
-            </h2>
-            <div>
-                <label>
-                    From
-                    <input type="range"><span></span>
-                </label>
-                <label>
-                    To
-                    <input type="range"><span></span>
-                </label>
-            </div>
-        </section>
-        <section>
-            <h2 class="section__title">
-                Sort
-            </h2>
-            <div class="sorters">
-                <button data-sorter="Max">
-                    Max price first
-                </button>
-                <button data-sorter="Min">
-                    Min price first
-                </button>
-            </div>
-        </section>
-    </aside>
-    <ul class="list">
-    </ul>
-</main>
+    <main class="wrapper">
+        <aside class="sidebar">
+            <section>
+                <h2 class="section__title">
+                    Prices options
+                </h2>
+                <div>
+                    <label>
+                        From
+                        <input type="range"><span></span>
+                    </label>
+                    <label>
+                        To
+                        <input type="range"><span></span>
+                    </label>
+                </div>
+            </section>
+            <section>
+                <h2 class="section__title">
+                    Sort
+                </h2>
+                <div class="sorters">
+                    <button data-sorter="Max">
+                        Max price first
+                    </button>
+                    <button data-sorter="Min">
+                        Min price first
+                    </button>
+                </div>
+            </section>
+        </aside>
+        <ul class="list">
+        </ul>
+    </main>
 
-<script type="module" src="src/goods.js"></script>
-<script type="module" src="src/index.js"></script>
-<script type="module" src="src/renders.js"></script>
+    <script type="module" src="src/goods.js"></script>
+    <script type="module" src="src/index.js"></script>
+    <script type="module" src="src/renders.js"></script>
 </body>
 </html>
