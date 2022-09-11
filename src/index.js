@@ -29,6 +29,7 @@ const modelFilter = (model) => {
  * @returns {*}
  */
 const memoryFilter = (memory) => {
+  
   return goods.filter((item) => item.memory === memory);
 };
 
@@ -37,6 +38,7 @@ const memoryFilter = (memory) => {
  * @returns {*}
  */
 const priceFilter = (price) => {
+
   return goods.filter((item) => item.price === price);
 };
 
@@ -45,6 +47,7 @@ const priceFilter = (price) => {
  * @returns {*}
  */
 const countryFilter = (country) => {
+
   return goods.filter((item) => item.country === country);
 };
 
